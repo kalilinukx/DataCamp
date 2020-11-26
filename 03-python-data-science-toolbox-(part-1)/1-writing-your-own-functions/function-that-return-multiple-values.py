@@ -36,8 +36,9 @@ def shout_all(word1, word2):
     return shout_words
 
 # Pass 'congratulations' and 'you' to shout_all(): yell1, yell2
-yell1, yell2 = shout_all('congratulations', 'you')
+yell1 = shout_all('congratulations', 'you')
 
 # Print yell1 and yell2
 print(yell1)
-print(yell2)
+# print(yell2)
+print(shout_all(" I am not you","man"))
