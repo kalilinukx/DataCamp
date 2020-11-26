@@ -22,3 +22,8 @@ object1 contains "data+analysis+visualization", object2 contains 3, object3 cont
 object1 contains "dataanalysisvisualization", object2 contains 3, object3 contains "111".
 '''
 # object1 contains "dataanalysisvisualization", object2 contains 3, object3 contains "111".
+object1 = "data" + "analysis" + "visualization"
+object2 = 1 * 3
+object3 = "1" * 3
+print(object1, ",", object2,",", object3)
+# IN output object1 contains "dataanalysisvisualization", object2 contains 3, object3 contains "111". this is the right answer
