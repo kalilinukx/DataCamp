@@ -26,7 +26,6 @@ def change_team():
 
 # Print team
 print(team)
-
 # Call change_team()
 change_team()
 

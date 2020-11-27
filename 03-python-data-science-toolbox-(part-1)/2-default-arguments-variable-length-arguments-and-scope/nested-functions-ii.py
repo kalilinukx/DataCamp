@@ -26,8 +26,9 @@ def echo(n):
     """Return the inner_echo function."""
 
     # Define inner_echo
-    def inner_echo(word1):
+    def inner_echo():
         """Concatenate n copies of word1."""
+        word1 = input ("Enter YOur favourite word: ")
         echo_word = word1 * n
         return echo_word
 
@@ -41,4 +42,4 @@ twice = echo(2)
 thrice = echo(3)
 
 # Call twice() and thrice() then print
-print(twice('hello'), thrice('hello'))
+print(twice(), thrice())
