@@ -19,9 +19,13 @@ and a single parameter word.
 passing in the parameters from three_shouts() as arguments to each call.
 '''
 # Define three_shouts
-def three_shouts(word1, word2, word3):
+def three_shouts():
     """Returns a tuple of strings
     concatenated with '!!!'."""
+    print("Enter three word:")
+    word1 = input(">")
+    word2 = input(">")
+    word3 = input(">")
 
     # Define inner
     def inner(word):
@@ -32,4 +36,4 @@ def three_shouts(word1, word2, word3):
     return (inner(word1), inner(word2) ,inner(word3))
 
 # Call three_shouts() and print
-print(three_shouts('a', 'b', 'c'))
+print(three_shouts())
