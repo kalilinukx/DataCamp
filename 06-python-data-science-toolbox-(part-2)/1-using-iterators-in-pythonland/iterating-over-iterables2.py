@@ -39,6 +39,8 @@ for num in range(3):
     print(num)
 
 # Create an iterator for range(10 ** 100): googol
+
+
 # Use try and except function to except memory and overflow error 
 
 try :
