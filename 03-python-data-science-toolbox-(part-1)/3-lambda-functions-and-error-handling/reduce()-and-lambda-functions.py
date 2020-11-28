@@ -33,10 +33,11 @@ is the list stark.
 from functools import reduce
 
 # Create a list of strings: stark
-stark = ['robb', 'sansa', 'arya', 'eddard', 'jon']
+stark = ['robb ', 'sansa ', 'arya', ' eddard', ' jon']
 
 # Use reduce() to apply a lambda function over stark: result
 result = reduce(lambda item1, item2: item1 + item2, stark)
-
+# This is going to give us the output of items first and second and rest to the stark list
 # Print the result
+print()
 print(result)

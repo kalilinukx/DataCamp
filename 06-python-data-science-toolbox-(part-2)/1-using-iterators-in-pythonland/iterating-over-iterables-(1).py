@@ -28,7 +28,7 @@ for name in flash:
 superspeed = iter(flash)
 
 # Print each item from the iterator
-print(next(superspeed))
-print(next(superspeed))
-print(next(superspeed))
-print(next(superspeed))
+print("jay gariick:",next(superspeed))
+print("barry allen:",next(superspeed))
+print("walley west",next(superspeed))
+print("bart allen: ",next(superspeed))
